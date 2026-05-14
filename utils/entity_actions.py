@@ -217,8 +217,8 @@ def create_relationship_between_entities(main_win):
 
     open_relationship_panel(main_win, canvas)
 
-    fill_field("asset/logical_name_label.png", "REL_LOGICAL")
-    fill_field("asset/physical_name_label.png", "REL_PHYSICAL")
+    fill_field("asset/logical_label.png", "REL_LOGICAL")
+    fill_field("asset/physical_label.png", "REL_PHYSICAL")
     fill_field("asset/description_label.png", "Temporary relationship for automated testing.")
     print("Relationship input completed.")
 

@@ -64,14 +64,14 @@ def app_main_window():
 # ----------------------------------------------------------------------
 @pytest.fixture(scope="session")
 def logical_image_path():
-    path = os.path.join(BASE_DIR, "asset", "logical_name_label.png")
+    path = os.path.join(BASE_DIR, "asset", "logical_label.png")
     if not os.path.exists(path):
         pytest.fail(f"Image file not found: {path}")
     return path
 
 @pytest.fixture(scope="session")
 def physical_image_path():
-    path = os.path.join(BASE_DIR, "asset", "physical_name_label.png")
+    path = os.path.join(BASE_DIR, "asset", "physical_label.png")
     if not os.path.exists(path):
         pytest.fail(f"Image file not found: {path}")
     return path
