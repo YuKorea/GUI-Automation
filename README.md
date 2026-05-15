@@ -2,7 +2,7 @@
 
 Windows 데스크톱 애플리케이션을 위한 Python 기반 GUI 자동화 테스트 프로젝트
 
-> 본 저장소는 포트폴리오 및 데모 목적의 프로젝트입니다.  
+> 본 프로젝트는 사내 시스템을 대상으로 작성되었습니다.
 > 실제 실행을 위해서는 대상 애플리케이션 및 관련 파일이 필요하며, 해당 파일은 공개되어 있지 않습니다.
 
 ---
@@ -215,8 +215,8 @@ desktop-gui-automation/
 Set via environment variable (recommended):
 
 ```bash
-set APP_EXE_PATH=C:\Users\<USERNAME>\AppData\Local\Programs\<AppName>\app.exe
-set APP_TARGET_FILE=<ProjectName> - C:\Users\<USERNAME>\Desktop\sample.project
+set APP_EXE_PATH=C:\..\app.exe
+set APP_TARGET_FILE=<ProjectName> - C:\..\sample.project
 ```
 
 ### 2. Install & Run
